@@ -1,54 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
+h1{
+    color: goldenrod;
 }
-.container{
+body{
+    background-image:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8NDw8NDw0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8/ODMtNygtLisBCgoKDQ0NDg0PDysZFRkrLTc3Ny0rKzcrNy0tKzc3LTc3LS0rLS0tNysrKy0rLSsrLSsrKysrKysrLSsrKysrK//AABEIAKsBJgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAf/xAAZEAEBAQEBAQAAAAAAAAAAAAAAARECEhP/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIFA//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A+UyLI0hSPFzd1sWRYsgzutIsaLIjLYuLIs5EqYUhTkvIgSL5Pyc5QcfDeXbyvkRw8r4d/LeQcZws4dcYHPymOliYAWJh2JgBjYbYDnjeXTEwHOwbHW8pYquVg2Otg2CueIeJYLQSwxVaGDY6YNGs0MYmGqUiyNCgw0hY0hSIzupIshSLgiSOkiSHII0XCkWRESQpGkWA2LIrQGwatERUVgFsVgRMVhBxsJBUxixhRxLCaiudjnY7WDYDjiY62JeVHKwbHWwLBrNc0sOwaqhjFUGqchROSiMrixoUgy0ixZDnIicx0kSQ4iNiyNFwRoypoiVZGS0KWJja1QTU1qiouprMDMzAysoqMzCsisA2DXRLBXKpTsGxQKFdLAo0Fg2HUornYxVlaYoLpzEZXmOkiSFBlSgqiFFiRRCJzhwFqLjeUQah4mAkVZC8iBjYeJQGwfLolAZFsZgTGJsAGIaqssRcBhVKKg1bQ6oqUKVGijRpUarWDWSsKfJxzhSiOkpaEqwZ05SgQoiHCkCFKIUixCAoqSqIiyM2ojSK2rgC1LEsAcSklig4lKwbAbW1MTEFtRmBlRlGDqnQsGhtG0rBsAUWxBRo2GnStY51mrDTQoEKCacpxzhxGXSFAhQRcKNFwFlWCUGV0pR8liC61aRrBEh8jh8gcStKtVQo06NiII4djYoGJjpiWIOVjFYmAjRbExVaiTCjQsOh1RRsHFrKqUKVGjWBWSsqpFgxYgcpxzhyjOukKOcPlEdIU6c9XRDlKOcWUR1hxylP0JDxsCdHOgjLKGtosdNbQlJEVmRRcGro0G0bWqAzDVgRWsZRoaNXqhaDWudhUbRUxG1LVaxOnPqn05dCjWSsqpKUCVYLuOkOOcpRGY6cukc+XSQRSRRllg1ZUR0ihKugulrnasoh6uhq6BylrnKcFJUlbQZla0AsHDSwIAnUCLEtRKKloWlQqiWja3QWiramjaN6GiodLodVVGslrDUGVZXOUpVWOkrpzXKHyjO47c10lceTlEjpraGrozD1tGVUSFKvoNTUSHqyuetojrq65SroOspTpxlX0DvOinThOilB2nTa5em9KsdNYJV0VUsbUtCJqWpaNosXqudW0OqEaudW9BaqxLRta0LRYto3pL0FqtZi2sFrDcGV05cJT5qtbj0Q4489HOkZ3HaUvTh6X0Mbjtra4+lnSJHfV1xnRaJHTU9Od6a0SOmprn6XUSOkq65ylKJHSVQ1vQR1ha4+2+gsd9bXD6N7CO/pvTh7adqr0ekvTh6X0LHW9Od6G9OffYQ70Nrn7S9BD6rn1UvQXoai2jaloWq1mLaNqWjaNZhWsFrLGoEpxy5dOVb3HWUp04qjG47TpdcNKUZ3HbW9OetqJHWdF7cSRmO3ptctISFraLCQ9WdOahHX2npzUSH6b0CBD9F7clFjp6WVx0pQjr6T056lFh9dOd6Shaqwr0noK1Fi3pL0I0azC0bUFY1mLaNqUarWYtrCw1H/2Q==");
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
-    background: rgb(195, 225, 235);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
 }
-.calculator{
-    background-color: #3a4452;
-    padding: 20px;
-    border-radius: 10px;
+#cards-el ,#sum-el{
+    margin-top: -30px;
 }
-.display{
-    border: 3px solid white;
-    border-radius: 10px;
+button{
+    color: green;
+    background-color: goldenrod;
+    border-radius: 3px;
+    font-size: 40px;
+    margin-top: 12px;
+    
 }
-.calculator form input{
-    border: 0;
-    outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
-    background:transparent;
-    font-size: 20px;
-    color: #fff;
+button:hover{
     cursor: pointer;
-    margin: 10px;
 }
-form .display{
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0;
+#nc{
+    padding: 0 20px 0 20px;
 }
-form .display input{
-    text-align: right;
-    flex: 1;
-    font-size: 45px;
-    box-shadow: none;
+#nc:hover{
+    cursor: pointer;
 }
-form input.equal{
-    width: 145px;
-    color: #33ffd8;
-}
-form input.operator{
-    color: #33ffd8;
+#name{
+    font-size: 30px;
 }
